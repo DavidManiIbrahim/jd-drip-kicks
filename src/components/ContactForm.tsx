@@ -23,7 +23,7 @@ const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState<{ name?: string; email?: string; message?: string }>({});
 
-  const whatsappNumber = "2347081518378";
+  const whatsappNumber = "+2348105043991";
   const whatsappMessage = encodeURIComponent("Hello JD Drip Kicks! I'm interested in your footwear.");
 
   const handleSubmit = async (e: React.FormEvent) => {

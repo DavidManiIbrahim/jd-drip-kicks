@@ -51,18 +51,14 @@ const Hero = () => {
 
           {/* Hero Image */}
           <div className="relative animate-scale-in">
-            <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
+            <div className="aspect-square w-full rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src={heroShoes}
                 alt="Premium unisex sneakers showcasing Stride Vault's signature style and comfort"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
-            {/* Floating Badge */}
-            <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground px-6 py-4 rounded-2xl shadow-xl">
-              <p className="text-sm font-semibold">Based on</p>
-              <p className="text-2xl font-heading font-bold">Order</p>
-            </div>
+         
           </div>
         </div>
       </div>
