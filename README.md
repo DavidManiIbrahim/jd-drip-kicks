@@ -38,3 +38,7 @@ npm run dev
 ## Contact
 
 For inquiries, please contact us.
+
+## screenshot
+
+<img width="936" height="431" alt="{75DAF21E-4BE1-43AE-A1BD-22D6321F3487}" src="https://github.com/user-attachments/assets/9a53466e-d402-4a23-aa46-fd3b03cc67d6" />
